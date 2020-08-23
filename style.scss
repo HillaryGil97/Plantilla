@@ -1,0 +1,165 @@
+$azu: hsl(180, 66%, 49%);
+$vi-oscuro: hsl(257, 27%, 26%);
+$rojo:hsl(0, 87%, 67%);
+$Gray: hsl(0, 0%, 75%);
+$vi-claro: hsl(257, 7%, 63%);
+$azul_oscuro: hsl(255, 11%, 22%);
+$Morado: hsl(260, 8%, 14%);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+.btn{
+    margin:20px;
+    border-radius: 50px;
+}
+.btn-primary{
+    background-color: $azu;
+    border-color: $azu;
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    .titulo{
+        font-size: 30px;
+    }
+    
+    .btn-primary{
+        background-color: $azu;
+        border-color: $azu;
+    }
+    .btn-secondary{
+        border-color: white;
+        background-color: white;
+        color: $Gray;
+    }
+}
+
+.container{
+    font-family: 'Poppins', sans-serif;
+    main{
+        .tarjeta1{
+            display: flex;
+            flex-direction: column;
+
+            h2{
+                margin: 30px;
+                font-size: 60px;
+            }
+            p{
+                margin: 30px;
+                color:$Gray;
+                font-size: 20px;
+            }
+            button{
+                width: 200px;
+            }
+        }
+        img{
+            width: 600px;
+            height: 400px;
+        }
+        .Buscador{
+            nav{
+                border-radius: 10px;
+                background-color: $vi-oscuro;
+                padding: 0px;
+                
+                form{
+                    display:flex;
+                    justify-content:space-around;
+                    border-radius: 10px;
+                    width: 100%;
+                    background-image: url(images/bg-shorten-desktop.svg);
+                    margin:0px;
+                    padding:20px;
+                    input{
+                        width: 80%;
+                        height: 50px;
+                        font-size: 18px;
+                        border-radius: 8px;
+                    }
+                    button{
+                        border-radius: 8px;
+                        width: 150px;
+                        height: 50px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        .tarjeta2{
+            padding: 30px;
+            margin-top: 20px;
+            background-color: $vi-claro;
+            width: 100%;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:space-around;
+            h3{
+                width: 100%;
+                font-size: 30px;
+                text-align: center;
+            }
+            p{
+                width:50%;
+                font-size: 18px;
+                text-align: center;
+                color: $Gray;
+            }
+        }
+        .porta{
+            background-color: $vi-claro;
+            padding: 20px;
+            div{
+                .cuadro{
+                    p{
+                        color: $Gray;
+                    }
+                }
+            }
+        }
+        .tarjeta3{
+            background-color: $vi-oscuro;
+            div{
+                padding: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:center;
+                background-image: url(images/bg-boost-desktop.svg);
+                h2{
+                    color:white;
+                    font-size: 40px;
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+        
+    }
+    footer{
+        background-color: $Morado;
+        color: white;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        div{
+            h5{
+                font-size: 25px;
+            }
+            ul{
+                li{
+                    text-decoration: none;
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+    
+}
+

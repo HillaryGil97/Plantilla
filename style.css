@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.btn-primary {
+  background-color: #2acfcf;
+  border-color: #2acfcf;
+}
+
+header {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+header .titulo {
+  font-size: 30px;
+}
+
+header .btn-primary {
+  background-color: #2acfcf;
+  border-color: #2acfcf;
+}
+
+header .btn-secondary {
+  border-color: white;
+  background-color: white;
+  color: #bfbfbf;
+}
+
+.container {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container main .tarjeta1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container main .tarjeta1 h2 {
+  margin: 30px;
+  font-size: 60px;
+}
+
+.container main .tarjeta1 p {
+  margin: 30px;
+  color: #bfbfbf;
+  font-size: 20px;
+}
+
+.container main .tarjeta1 button {
+  width: 200px;
+}
+
+.container main img {
+  width: 600px;
+  height: 400px;
+}
+
+.container main .Buscador nav {
+  border-radius: 10px;
+  background-color: #3b3054;
+  padding: 0px;
+}
+
+.container main .Buscador nav form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 10px;
+  width: 100%;
+  background-image: url(images/bg-shorten-desktop.svg);
+  margin: 0px;
+  padding: 20px;
+}
+
+.container main .Buscador nav form input {
+  width: 80%;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.container main .Buscador nav form button {
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.container main .tarjeta2 {
+  padding: 30px;
+  margin-top: 20px;
+  background-color: #9e9aa7;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container main .tarjeta2 h3 {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container main .tarjeta2 p {
+  width: 50%;
+  font-size: 18px;
+  text-align: center;
+  color: #bfbfbf;
+}
+
+.container main .porta {
+  background-color: #9e9aa7;
+  padding: 20px;
+}
+
+.container main .porta div .cuadro p {
+  color: #bfbfbf;
+}
+
+.container main .tarjeta3 {
+  background-color: #3b3054;
+}
+
+.container main .tarjeta3 div {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(images/bg-boost-desktop.svg);
+}
+
+.container main .tarjeta3 div h2 {
+  color: white;
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.container footer {
+  background-color: #232127;
+  color: white;
+}
+
+.container footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.container footer div h5 {
+  font-size: 25px;
+}
+
+.container footer div ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
